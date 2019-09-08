@@ -1,7 +1,7 @@
 # Packages to be imported
 
 import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import pandas as pd # data processing, CSV file I/O
 import h2o # Package for ML model
 from h2o.estimators.gbm import H2OGradientBoostingEstimator
 

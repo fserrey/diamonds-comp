@@ -25,6 +25,7 @@ diamond_x_train = diamonds_encode[[x for x in diamonds_encode.columns if x != 'p
 
 # Scaling
 scaler = RobustScaler()
+
 scaler_y_train = scaler.fit_transform(diamond_x_train)
 diamonds_y_test = scaler.fit_transform(diamonds_y_test)
 
